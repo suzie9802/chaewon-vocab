@@ -1,0 +1,65 @@
+[
+  {
+    "id": "blast",
+    "word": "blast",
+    "phonetic": "/blæst/",
+    "partOfSpeech": "명사 · 동사",
+    "enMeaning": "A big, loud push of air or fire, like when a rocket shoots up! It can also mean a super fun time.",
+    "koMeaning": "① (로켓 등이) 쾅! 하고 뿜어져 날아오름, 폭발\n② 정말 신나고 재미있는 시간",
+    "examples": [
+      {
+        "en": "\"3, 2, 1, blast off!\" The rocket flies up into the sky!",
+        "ko": "\"3, 2, 1, 발사!\" 로켓이 하늘로 날아올라요!"
+      },
+      {
+        "en": "We had a blast at the park today!",
+        "ko": "오늘 공원에서 정말 신나게 놀았어요!"
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/blast.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "scooter",
+    "word": "scooter",
+    "phonetic": "/ˈskuːtər/",
+    "partOfSpeech": "명사",
+    "enMeaning": "A fun ride with two wheels and a long handle that you push with your foot.",
+    "koMeaning": "킥보드, 스쿠터 (발로 땅을 밀어 타는 탈것)",
+    "examples": [
+      {
+        "en": "I ride my pink scooter in the park.",
+        "ko": "나는 공원에서 내 분홍색 킥보드를 타요."
+      },
+      {
+        "en": "Put on your helmet before you ride your scooter!",
+        "ko": "킥보드를 타기 전에 꼭 헬멧을 쓰세요!"
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/scooter.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "bush",
+    "word": "bush",
+    "phonetic": "/bʊʃ/",
+    "partOfSpeech": "명사",
+    "enMeaning": "A short, round green plant with lots of leaves and little branches, smaller than a tree.",
+    "koMeaning": "덤불, 키 작은 나무 (나무보다 작고 동글동글한 풀나무)",
+    "examples": [
+      {
+        "en": "Look! A cute rabbit is hiding behind the bush.",
+        "ko": "봐! 귀여운 토끼가 덤불 뒤에 숨어 있어요."
+      },
+      {
+        "en": "Pretty pink flowers are growing on the bush.",
+        "ko": "덤불에 예쁜 분홍색 꽃이 피어 있어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/bush.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  }
+]
