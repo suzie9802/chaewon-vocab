@@ -61,5 +61,194 @@
     "imageFile": "chaewon-vocab/images/bush.png",
     "addedAt": "2026-11-15",
     "mastered": false
+  },
+  {
+    "id": "ultimately",
+    "word": "ultimately",
+    "phonetic": "/ˈʌltɪmətli/",
+    "partOfSpeech": "부사",
+    "enMeaning": "Finally, in the end, after trying hard or waiting for a long time.",
+    "koMeaning": "결국, 마침내, 드디어 (오래 기다리거나 열심히 한 끝에)",
+    "examples": [
+      {
+        "en": "It rained in the morning, but ultimately the sun came out!",
+        "ko": "아침에는 비가 왔지만, 결국에는 해가 나왔어요!"
+      },
+      {
+        "en": "She practiced every day and ultimately learned to ride her bike.",
+        "ko": "그녀는 매일 연습해서 마침내 자전거 타는 법을 배웠어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/ultimately.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "sacrifice",
+    "word": "sacrifice",
+    "phonetic": "/ˈsækrɪfaɪs/",
+    "partOfSpeech": "명사 · 동사",
+    "enMeaning": "Giving up something you really like to help someone else or do something good.",
+    "koMeaning": "희생, 아끼는 것을 양보함 (다른 사람을 위해 내가 좋아하는 것을 내어주는 것)",
+    "examples": [
+      {
+        "en": "The bunny made a kind sacrifice and gave his last berry to his friend.",
+        "ko": "토끼는 착한 마음으로 자기 마지막 딸기를 친구에게 양보했어요."
+      },
+      {
+        "en": "Mom always makes sacrifices to make me happy.",
+        "ko": "엄마는 나를 행복하게 해 주려고 항상 양보하고 애쓰세요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/sacrifice.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "regretted",
+    "word": "regretted",
+    "phonetic": "/rɪˈɡretɪd/",
+    "partOfSpeech": "동사 (regret의 과거형)",
+    "enMeaning": "Felt sorry or sad about something you did or didn't do. (From \"regret\")",
+    "koMeaning": "후회했다, 아쉬워했다 (기본형: regret)",
+    "examples": [
+      {
+        "en": "He regretted running so fast because he dropped his ice cream.",
+        "ko": "그는 너무 빨리 뛰다가 아이스크림을 떨어뜨려서 후회했어요."
+      },
+      {
+        "en": "I regretted not bringing my umbrella when it started to rain.",
+        "ko": "비가 오기 시작했을 때 우산을 안 가져온 걸 후회했어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/regretted.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "granting",
+    "word": "granting",
+    "phonetic": "/ˈɡræntɪŋ/",
+    "partOfSpeech": "동사 (grant의 -ing형)",
+    "enMeaning": "Saying \"yes\" to a wish or request and making it happen! (From \"grant\")",
+    "koMeaning": "들어주는 중, 허락해 줌 (기본형: grant)",
+    "examples": [
+      {
+        "en": "The fairy is granting the little girl's wish with a magic wand.",
+        "ko": "요정이 마법 지팡이로 꼬마 여자아이의 소원을 들어주고 있어요."
+      },
+      {
+        "en": "Thank you for granting me extra playtime, Mom!",
+        "ko": "엄마, 노는 시간을 더 허락해 주셔서 감사해요!"
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/granting.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "bashful",
+    "word": "bashful",
+    "phonetic": "/ˈbæʃfəl/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "Feeling a little shy and hiding your smiling face when people look at you.",
+    "koMeaning": "수줍어하는, 부끄러워하는",
+    "examples": [
+      {
+        "en": "The bashful kitten hid her rosy cheeks behind her paws.",
+        "ko": "수줍어하는 아기 고양이가 발 뒤에 발그레한 볼을 숨겼어요."
+      },
+      {
+        "en": "He felt bashful when everyone sang Happy Birthday to him.",
+        "ko": "모두가 생일 축하 노래를 불러 주자 그는 수줍어졌어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/bashful.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "stroll",
+    "word": "stroll",
+    "phonetic": "/stroʊl/",
+    "partOfSpeech": "명사 · 동사",
+    "enMeaning": "A slow, happy, and relaxing walk just for fun.",
+    "koMeaning": "산책, 천천히 기분 좋게 걷기",
+    "examples": [
+      {
+        "en": "Let's take a morning stroll in the park with our puppy!",
+        "ko": "우리 강아지랑 공원에서 아침 산책을 해요!"
+      },
+      {
+        "en": "We like to stroll along the flower path after dinner.",
+        "ko": "우리는 저녁을 먹은 뒤 꽃길을 따라 천천히 걷는 걸 좋아해요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/stroll.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "generous",
+    "word": "generous",
+    "phonetic": "/ˈdʒenərəs/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "Happy to share lots of good things with others without being greedy.",
+    "koMeaning": "마음이 넓은, 아낌없이 나누어 주는",
+    "examples": [
+      {
+        "en": "The generous squirrel shared his big basket of cookies with all his friends.",
+        "ko": "마음이 넓은 다람쥐는 큰 바구니 가득 든 쿠키를 친구들 모두에게 나누어 주었어요."
+      },
+      {
+        "en": "It was very generous of you to let me play with your favorite toy.",
+        "ko": "네가 제일 좋아하는 장난감을 나랑 같이 놀게 해 주다니 정말 마음이 넓구나."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/generous.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "bite-gradually",
+    "word": "bite gradually",
+    "phonetic": "/baɪt ˈɡrædʒuəli/",
+    "partOfSpeech": "동사구 (표현)",
+    "enMeaning": "To take small bites little by little, slowly, instead of eating it all at once.",
+    "koMeaning": "조금씩 천천히 베어 먹다 (한꺼번에 먹지 않고 야금야금)",
+    "examples": [
+      {
+        "en": "The cookie is big, so bite gradually and enjoy it slowly.",
+        "ko": "쿠키가 크니까 조금씩 천천히 베어 먹으며 맛있게 먹어 봐."
+      },
+      {
+        "en": "The little hamster likes to bite gradually on his yummy snack.",
+        "ko": "작은 햄스터는 맛있는 간식을 조금씩 야금야금 베어 먹는 걸 좋아해요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/bite-gradually.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "exposed",
+    "word": "exposed",
+    "phonetic": "/ɪkˈspoʊzd/",
+    "partOfSpeech": "형용사 · 동사 (expose의 과거형)",
+    "enMeaning": "Uncovered and left out in the open where everyone can see or feel it. (From \"expose\")",
+    "koMeaning": "드러난, 덮여 있지 않고 밖에 나온 (기본형: expose)",
+    "examples": [
+      {
+        "en": "When the box opened, the shiny toys inside were exposed to the sunlight.",
+        "ko": "상자가 열리자 안에 있던 반짝이는 장난감들이 햇빛 아래 드러났어요."
+      },
+      {
+        "en": "Put on your hat so your ears aren't exposed to the cold wind!",
+        "ko": "차가운 바람에 귀가 그대로 노출되지 않게 모자를 쓰세요!"
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/exposed.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
   }
 ]
