@@ -800,21 +800,42 @@
       return controls + list.map(wordCardHtml).join("");
     }
 
+    function maskWordInSentence(sentence, word) {
+      if (!sentence || !word) return "";
+      const re = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(s|es|ed|ing)?\\b`, "gi");
+      return sentence.replace(re, "______");
+    }
+
     function renderQuiz() {
       if (words.length < 2) return `<div class="empty">퀴즈를 하려면 단어가 2개 이상 필요해요!</div>`;
       const target = words[quizIndex % words.length];
       const others = words.filter(w => w.id !== target.id).sort(() => Math.random() - 0.5).slice(0, 2);
       const options = [target, ...others].sort(() => Math.random() - 0.5);
+      const exList = target.examples && target.examples.length ? target.examples : [];
+      const exObj = exList.length ? exList[quizIndex % exList.length] : null;
+      const blankSentence = exObj ? maskWordInSentence(exObj.en, target.word) : "";
 
       return `
         <div class="quiz-card">
           <div style="display:flex;justify-content:space-between;font-size:12.5px;font-weight:800;color:var(--muted);margin-bottom:8px;">
-            <span>문제 ${(quizIndex % words.length) + 1} / ${words.length}</span>
-            <span style="color:var(--primary);">맞힌 개수: ${quizScore}점 🌟</span>
+            <span>Quiz ${(quizIndex % words.length) + 1} / ${words.length}</span>
+            <span style="color:var(--primary);">Score: ${quizScore} 🌟</span>
           </div>
-          <div style="font-size:15px;font-weight:900;color:var(--text);">그림을 보고 알맞은 단어를 골라요!</div>
+          <div style="font-size:15px;font-weight:900;color:var(--text);">Read the clue and fill in the blank!</div>
           ${target.image ? `<img class="quiz-img" src="${target.image}" alt="quiz" />` : `<div style="font-size:64px;margin:24px 0;">❓</div>`}
-          <div style="font-size:14.5px;font-weight:700;color:var(--muted);">${target.koMeaning.split("\n")[0]}</div>
+          ${blankSentence ? `
+            <div style="background:#F0FDF4;border-radius:16px;padding:13px 14px;margin:8px 0;text-align:left;">
+              <div style="font-size:11.5px;font-weight:800;color:#15803D;margin-bottom:4px;">💬 Context Sentence</div>
+              <div id="quizSentence" style="font-size:16px;font-weight:800;color:var(--text);line-height:1.45;">${blankSentence}</div>
+            </div>` : ""}
+          ${target.enMeaning ? `
+            <div style="background:#F5F9FF;border-radius:16px;padding:12px 14px;margin:8px 0;text-align:left;">
+              <div style="display:flex;justify-content:space-between;align-items:center;font-size:11.5px;font-weight:800;color:#1D4ED8;margin-bottom:4px;">
+                <span>💡 English Clue</span>
+                <button class="mini-play" style="background:#DBEAFE;color:#1E40AF;" onclick="speak('${target.enMeaning.replace(/'/g, "\\'")}')">🔊 Listen</button>
+              </div>
+              <div style="font-size:14px;font-weight:600;color:#1E3A8A;line-height:1.45;">${target.enMeaning}</div>
+            </div>` : ""}
           <div class="quiz-options">
             ${options.map(o => `
               <button class="quiz-opt" onclick="checkQuiz(this, '${o.id}', '${target.id}')">${o.word}</button>
@@ -831,8 +852,12 @@
         btn.classList.add("correct");
         quizScore++;
         const w = words.find(x => x.id === answerId);
-        speak(w.word);
-        msg.innerHTML = `🎉 정답! ${w.word}! 참 잘했어요!`;
+        const sentEl = document.getElementById("quizSentence");
+        const exList = w.examples && w.examples.length ? w.examples : [];
+        const exObj = exList.length ? exList[quizIndex % exList.length] : null;
+        if (sentEl && exObj) sentEl.innerHTML = exObj.en.replace(new RegExp(`(${w.word})`, "gi"), `<span style="color:var(--green);text-decoration:underline;">$1</span>`);
+        speak(exObj ? exObj.en : w.word);
+        msg.innerHTML = `🎉 Great job! "${w.word}"!`;
         setTimeout(() => {
           quizIndex = (quizIndex + 1) % words.length;
           render();
