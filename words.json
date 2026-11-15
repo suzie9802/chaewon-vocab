@@ -250,5 +250,467 @@
     "imageFile": "chaewon-vocab/images/exposed.png",
     "addedAt": "2026-11-15",
     "mastered": false
+  },
+  {
+    "id": "boasting",
+    "word": "boasting",
+    "phonetic": "/ˈboʊstɪŋ/",
+    "partOfSpeech": "동사 (boast의 -ing형)",
+    "enMeaning": "Talking proudly about how great you are, in a way that can sound like showing off. (From \"boast\")",
+    "koMeaning": "자랑하는 중, 뽐내는 (기본형: boast)",
+    "examples": [
+      {
+        "en": "He kept boasting about his new shoes.",
+        "ko": "그는 새 신발을 계속 자랑했어요."
+      },
+      {
+        "en": "Boasting every day can make friends feel sad.",
+        "ko": "매일 자랑만 하면 친구들이 속상해질 수 있어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/boasting.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "overconfident",
+    "word": "overconfident",
+    "phonetic": "/ˌoʊvərˈkɑːnfɪdənt/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "Feeling far too sure that you can do something, so you forget to be careful.",
+    "koMeaning": "지나치게 자신만만한, 과신하는",
+    "examples": [
+      {
+        "en": "He was overconfident and forgot to tie his shoes.",
+        "ko": "그는 너무 자신만만해서 신발 끈을 묶는 걸 잊었어요."
+      },
+      {
+        "en": "Don't be overconfident on the slide!",
+        "ko": "미끄럼틀에서 너무 자신만만해하지 마!"
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/overconfident.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "statement",
+    "word": "statement",
+    "phonetic": "/ˈsteɪtmənt/",
+    "partOfSpeech": "명사",
+    "enMeaning": "Something you say or write to tell people clearly what you think or know.",
+    "koMeaning": "진술, 발언, 서술 (말이나 글로 분명히 밝힌 것)",
+    "examples": [
+      {
+        "en": "Her statement was simple: \"I love my family.\"",
+        "ko": "그녀의 말은 간단했어요. \"나는 우리 가족을 사랑해요.\""
+      },
+      {
+        "en": "The teacher read the statement on the board.",
+        "ko": "선생님이 칠판에 쓴 문장을 읽어 주셨어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/statement.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "reveal",
+    "word": "reveal",
+    "phonetic": "/rɪˈviːl/",
+    "partOfSpeech": "동사",
+    "enMeaning": "To show something that was hidden or secret.",
+    "koMeaning": "드러내다, 밝히다 (숨겨 둔 것을 보여 주다)",
+    "examples": [
+      {
+        "en": "Open the box to reveal a tiny puppy!",
+        "ko": "상자를 열면 아주 작은 강아지가 나타나요!"
+      },
+      {
+        "en": "She pulled the cloth to reveal the cake.",
+        "ko": "그녀가 천을 당기자 케이크가 드러났어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/reveal.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "boastful",
+    "word": "boastful",
+    "phonetic": "/ˈboʊstfəl/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "Always telling everyone how great you are.",
+    "koMeaning": "자랑을 많이 하는, 뽐내기 좋아하는",
+    "examples": [
+      {
+        "en": "The boastful rooster crowed about his shiny feathers.",
+        "ko": "자랑하기 좋아하는 수탉이 반짝이는 깃털을 뽐냈어요."
+      },
+      {
+        "en": "Nobody likes a boastful voice.",
+        "ko": "아무도 자랑만 하는 말투를 좋아하지 않아요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/boastful.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "despite",
+    "word": "despite",
+    "phonetic": "/dɪˈspaɪt/",
+    "partOfSpeech": "전치사",
+    "enMeaning": "Even though something happened; it did not stop the other thing.",
+    "koMeaning": "~에도 불구하고, ~인데도",
+    "examples": [
+      {
+        "en": "Despite the rain, we went outside to play.",
+        "ko": "비가 왔는데도 우리는 밖에 나가 놀았어요."
+      },
+      {
+        "en": "Despite being small, the ant carried the big leaf.",
+        "ko": "작은 몸인데도 개미는 큰 잎을 옮겼어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/despite.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "entertainment",
+    "word": "entertainment",
+    "phonetic": "/ˌentərˈteɪnmənt/",
+    "partOfSpeech": "명사",
+    "enMeaning": "Fun things that make people smile and happy, like shows, games, or music.",
+    "koMeaning": "즐길 거리, 오락, 연예 (재미있게 해 주는 것)",
+    "examples": [
+      {
+        "en": "The clown show was great entertainment for the kids.",
+        "ko": "광대 공연은 아이들에게 아주 재미있는 즐길 거리였어요."
+      },
+      {
+        "en": "Singing songs is our favorite entertainment at home.",
+        "ko": "노래 부르기는 우리 집에서 가장 좋아하는 놀이예요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/entertainment.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "values",
+    "word": "values",
+    "phonetic": "/ˈvæljuːz/",
+    "partOfSpeech": "명사 (복수)",
+    "enMeaning": "The things a person or family believes are most important and good, like being kind or honest.",
+    "koMeaning": "가치관, 소중히 여기는 마음가짐 (착함·정직함 같은 것)",
+    "examples": [
+      {
+        "en": "Sharing and saying sorry are important family values.",
+        "ko": "나누기와 미안하다고 말하기는 우리 가족의 소중한 가치예요."
+      },
+      {
+        "en": "Her values are kindness and telling the truth.",
+        "ko": "그녀가 소중히 여기는 것은 착함과 사실대로 말하기예요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/values.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "competitiveness",
+    "word": "competitiveness",
+    "phonetic": "/kəmˈpetətɪvnəs/",
+    "partOfSpeech": "명사",
+    "enMeaning": "Wanting very much to win or be better than other people.",
+    "koMeaning": "경쟁심, 이기고 싶어 하는 마음",
+    "examples": [
+      {
+        "en": "His competitiveness made him run faster and faster.",
+        "ko": "그의 경쟁심 때문에 점점 더 빨리 달렸어요."
+      },
+      {
+        "en": "A little competitiveness is fun, but winning is not everything.",
+        "ko": "조금의 경쟁심은 재미있지만 이기는 것만이 전부는 아니에요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/competitiveness.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "broadcasted",
+    "word": "broadcasted",
+    "phonetic": "/ˈbrɔːdkæstɪd/",
+    "partOfSpeech": "동사 (broadcast의 과거형)",
+    "enMeaning": "Sent out on TV or radio so many people could watch or hear it. (From \"broadcast\")",
+    "koMeaning": "방송했다 (기본형: broadcast)",
+    "examples": [
+      {
+        "en": "They broadcasted the soccer game on TV.",
+        "ko": "그들은 축구 경기를 TV로 방송했어요."
+      },
+      {
+        "en": "The song was broadcasted to the whole country.",
+        "ko": "그 노래는 온 나라에 방송되었어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/broadcasted.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "environment",
+    "word": "environment",
+    "phonetic": "/ɪnˈvaɪrənmənt/",
+    "partOfSpeech": "명사",
+    "enMeaning": "The world all around us: the air, water, land, plants, and animals.",
+    "koMeaning": "환경, 우리를 둘러싼 자연",
+    "examples": [
+      {
+        "en": "We keep our environment clean by picking up trash.",
+        "ko": "우리는 쓰레기를 주워서 환경을 깨끗하게 해요."
+      },
+      {
+        "en": "Trees and water are part of the environment.",
+        "ko": "나무와 물은 환경의 한 부분이에요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/environment.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "unique",
+    "word": "unique",
+    "phonetic": "/juˈniːk/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "The only one like it; different from everything and everyone else.",
+    "koMeaning": "독특한, 유일무이한 (딱 하나뿐인)",
+    "examples": [
+      {
+        "en": "Your drawing is unique, just like you!",
+        "ko": "네 그림은 너처럼 세상에 하나뿐이야!"
+      },
+      {
+        "en": "Every snowflake has a unique shape.",
+        "ko": "눈송이는 저마다 독특한 모양을 하고 있어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/unique.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "equally",
+    "word": "equally",
+    "phonetic": "/ˈiːkwəli/",
+    "partOfSpeech": "부사",
+    "enMeaning": "In the same amount or the same way for everyone.",
+    "koMeaning": "똑같이, 공평하게",
+    "examples": [
+      {
+        "en": "Share the cookies equally with your friends.",
+        "ko": "쿠키를 친구들과 똑같이 나누어요."
+      },
+      {
+        "en": "I love my two toys equally.",
+        "ko": "나는 두 장난감을 똑같이 사랑해요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/equally.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "inferred",
+    "word": "inferred",
+    "phonetic": "/ɪnˈfɜːrd/",
+    "partOfSpeech": "동사 (infer의 과거형)",
+    "enMeaning": "Figured something out from clues, even though nobody told you. (From \"infer\")",
+    "koMeaning": "추론했다, 짐작해서 알아냈다 (기본형: infer)",
+    "examples": [
+      {
+        "en": "She inferred from the muddy shoes that it rained.",
+        "ko": "그녀는 진흙 묻은 신발을 보고 비가 왔다고 짐작했어요."
+      },
+      {
+        "en": "We inferred the puppy was happy from its wagging tail.",
+        "ko": "우리는 꼬리를 흔드는 걸 보고 강아지가 기분이 좋다고 알았어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/inferred.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "uncomfortable",
+    "word": "uncomfortable",
+    "phonetic": "/ʌnˈkʌmftərbl/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "Feeling not cozy or not happy, like wearing a scratchy shirt or sitting on a hard chair.",
+    "koMeaning": "불편한, 편안하지 않은",
+    "examples": [
+      {
+        "en": "This scratchy sweater makes my neck uncomfortable.",
+        "ko": "이 까슬까슬한 스웨터 때문에 목이 불편해요."
+      },
+      {
+        "en": "The chair was so hard that I felt uncomfortable.",
+        "ko": "의자가 너무 딱딱해서 불편했어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/uncomfortable.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "construction",
+    "word": "construction",
+    "phonetic": "/kənˈstrʌkʃn/",
+    "partOfSpeech": "명사",
+    "enMeaning": "The work of building something, like a house, a bridge, or a road.",
+    "koMeaning": "건설, 공사 (집이나 다리 등을 짓는 일)",
+    "examples": [
+      {
+        "en": "The construction of our new school is almost done.",
+        "ko": "우리 새 학교 공사가 거의 끝나 가요."
+      },
+      {
+        "en": "Big trucks are working at the construction site.",
+        "ko": "큰 트럭들이 공사장에서 일하고 있어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/construction.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "historical",
+    "word": "historical",
+    "phonetic": "/hɪˈstɔːrɪkl/",
+    "partOfSpeech": "형용사",
+    "enMeaning": "About things that happened long ago in the past.",
+    "koMeaning": "역사적인, 역사와 관련된",
+    "examples": [
+      {
+        "en": "We saw a historical castle on our trip.",
+        "ko": "우리는 여행에서 역사적인 성을 보았어요."
+      },
+      {
+        "en": "Grandma told me a historical story about our town.",
+        "ko": "할머니가 우리 마을에 대한 옛이야기를 해 주셨어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/historical.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "relocating",
+    "word": "relocating",
+    "phonetic": "/ˈriːloʊkeɪtɪŋ/",
+    "partOfSpeech": "동사 (relocate의 -ing형)",
+    "enMeaning": "Moving to a new place to live or work. (From \"relocate\")",
+    "koMeaning": "이사하는 중, 새 장소로 옮겨 가는 (기본형: relocate)",
+    "examples": [
+      {
+        "en": "My friend is relocating to a new town next month.",
+        "ko": "내 친구는 다음 달에 새 동네로 이사해요."
+      },
+      {
+        "en": "The birds are relocating to a warmer place.",
+        "ko": "새들이 더 따뜻한 곳으로 옮겨 가고 있어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/relocating.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "shortage",
+    "word": "shortage",
+    "phonetic": "/ˈʃɔːrtɪdʒ/",
+    "partOfSpeech": "명사",
+    "enMeaning": "When there is not enough of something that people need.",
+    "koMeaning": "부족, 모자람 (필요한 것이 충분하지 않음)",
+    "examples": [
+      {
+        "en": "There was a shortage of umbrellas at the shop.",
+        "ko": "가게에 우산이 부족했어요."
+      },
+      {
+        "en": "A shortage of water makes plants thirsty.",
+        "ko": "물이 부족하면 식물이 목말라해요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/shortage.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "persuade",
+    "word": "persuade",
+    "phonetic": "/pərˈsweɪd/",
+    "partOfSpeech": "동사",
+    "enMeaning": "To help someone change their mind by talking nicely to them.",
+    "koMeaning": "설득하다 (말로 잘 이야기해 마음을 바꾸게 하다)",
+    "examples": [
+      {
+        "en": "I persuaded my mom to read one more story.",
+        "ko": "나는 엄마를 설득해서 이야기를 하나 더 읽었어요."
+      },
+      {
+        "en": "The kitten persuaded us to give it some milk.",
+        "ko": "아기 고양이가 우유를 달라고 우리를 졸랐어요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/persuade.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "location",
+    "word": "location",
+    "phonetic": "/loʊˈkeɪʃn/",
+    "partOfSpeech": "명사",
+    "enMeaning": "The place where something is.",
+    "koMeaning": "위치, 장소",
+    "examples": [
+      {
+        "en": "The location of the park is near our house.",
+        "ko": "공원 위치는 우리 집 근처예요."
+      },
+      {
+        "en": "Can you show me the location on the map?",
+        "ko": "지도에서 그 위치를 알려 줄래?"
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/location.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
+  },
+  {
+    "id": "granite",
+    "word": "granite",
+    "phonetic": "/ˈɡrænɪt/",
+    "partOfSpeech": "명사",
+    "enMeaning": "A very hard gray rock with tiny shiny spots, often used for buildings and statues.",
+    "koMeaning": "화강암 (아주 단단하고 회색이며 반짝이는 점이 있는 돌)",
+    "examples": [
+      {
+        "en": "The steps are made of strong gray granite.",
+        "ko": "그 계단은 단단한 회색 화강암으로 만들어졌어요."
+      },
+      {
+        "en": "Granite feels cold and smooth when you touch it.",
+        "ko": "화강암은 만져 보면 차갑고 매끄러워요."
+      }
+    ],
+    "imageFile": "chaewon-vocab/images/granite.png",
+    "addedAt": "2026-11-15",
+    "mastered": false
   }
 ]
